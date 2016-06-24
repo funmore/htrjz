@@ -1,0 +1,215 @@
+/*
+Theme Name: ranjianzhan
+Author: funmore
+Author URI: none
+Version: 1.0
+*/
+body {
+	padding-bottom: 40px;
+  	color: #555; 
+  }
+
+/* nav section start*/
+ /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/*nav的css*/
+.menu-header-container li{
+  list-style: none;
+  float:left;
+}
+.menu-header-container li a{
+  color:#9d9d9d;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  display: block;
+  padding:10px 15px;
+  text-decoration: none;
+}
+/*nav的css*/
+
+/*newslist的css*/
+.sbody{
+  padding-top: 10px;
+}
+
+.sbody div{
+  margin: 5px;
+}
+
+.sbody>img{
+  width: 4000px;
+}
+
+#singleblank{
+  height: 55px;
+}
+.newslist-sidebar div li{
+  
+    list-style: none;
+    font-size: 150%;
+    font-weight: bold;
+    border-width: 0 0 1px 0;
+    border-style:solid;
+    border-color:#C5C4C4;
+    padding:25px;
+}
+.case li:first-child{
+  border-width: 1px 0 1px 0;
+}
+.newslist-sidebar div li a{
+  text-decoration: none;
+  color:#353535;
+}
+.newslist-sidebar div li a.link,.newslist-sidebar div li a.visited {
+  text-decoration:none;
+}
+
+
+/*新闻列表样式*/
+.newslist {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*newslist的css*/
+
+
+
+/*breadCrumbs*/
+
+.breadcrumbs a{
+  text-decoration: none;
+}
+.breadcrumbs,.breadcrumbs span{
+  color: #999;
+}
+/*breadCrumbs*/
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/*col-lg-7部分的标题和时间的样式*/
+.page h2{
+  text-align: center;
+}
+.page a{
+  text-decoration: none;
+}
+.post-info{
+  text-align: center;
+}
+/*col-lg-7部分的标题和时间的样式*/
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+#content { width: 75%; border: 2px #a2a2a2 solid; float: left; }
+#sidebar { width: 23%; border: 2px #a2a2a2 solid; float: right; }
+#delimiter { clear: both; }
+.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+
+.featurette-divider {
+  margin: 80px 0 10px 0; /* Space out the Bootstrap <hr> more */
+}
+#address{
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+
+}
+
